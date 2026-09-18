@@ -1,0 +1,126 @@
+
+/* Fundo da calculadora */
+.calculadora {
+    width: 320px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f5efff;
+    border: 2px solid #e5d5ff;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(155, 122, 202, 0.18);
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+.calculadora h2 {
+    text-align: center;
+    color: #7651a8;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+/* Campos de número */
+.calculadora input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    margin-bottom: 15px;
+    border: 2px solid #dfccf7;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #5d4778;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Efeito ao clicar no input */
+.calculadora input[type="number"]:focus {
+    border-color: #b99be8;
+    box-shadow: 0 0 8px rgba(185, 155, 232, 0.25);
+}
+
+/* Texto da operação */
+.calculadora h3 {
+    color: #7651a8;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Botões das operações */
+.calculadora button {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 18px;
+    margin: 4px;
+    background-color: #d8c1f5;
+    color: #5b3d82;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Efeito hover */
+.calculadora button:hover {
+    background-color: #b99be8;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Operação escolhida */
+.calculadora p {
+    text-align: center;
+    color: #80699b;
+    font-size: 14px;
+}
+
+/* Área dos botões Calcular e Limpar */
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Botões Calcular e Limpar */
+.btn input {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Botão Calcular */
+.btn input[type="submit"] {
+    background-color: #a78bda;
+    color: white;
+}
+
+/* Botão Limpar */
+.btn input[type="button"] {
+    background-color: #eadcff;
+    color: #7651a8;
+}
+
+/* Hover dos botões inferiores */
+.btn input:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Resultado */
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 2px dashed #d8c1f5;
+    text-align: center;
+    color: #7651a8;
+    font-size: 18px;
+    font-weight: bold;
+}
